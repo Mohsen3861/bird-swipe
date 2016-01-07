@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.birdswipe.mohsenraeisi.game.restartActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        android:id="@+id/buttonRestart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewScore"
+        android:choiceMode="none"
+        android:dividerHeight="10dp"
+        android:background="#ffffff"
+        android:divider="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/buttonRestart"
+        android:layout_margin="50dp" />
+</RelativeLayout>

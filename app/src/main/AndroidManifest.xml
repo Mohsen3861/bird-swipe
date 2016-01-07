@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.birdswipe.mohsenraeisi.game">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true" >
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="8Lzk1kR5yBZLDiqMvJ5v7IFbqC5ci7HgNyI9PKjz" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="6u7EFOmVo7QppSm1ZnHx6IXDt93E8VN6rq5GZbzZ" />
+
+        <activity
+            android:name="com.birdswipe.mohsenraeisi.game.MainGame"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.birdswipe.mohsenraeisi.game.restartActivity"></activity>
+    </application>
+
+</manifest>

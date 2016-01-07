@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bird Swipe</string>
+    <string name="scoretext">"SCORE   "</string>
+    <string name="timetext">"TIME   "</string>
+    <string name="swipeNotice">Swipe in the direction of the middle bird</string>
+    <string name="restartbutton">RESTART</string>
+    <string name="newhighscore">NEW HIGH SCORE</string>
+     <!-- <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-4795862040225505/3884273877</string>
+
+
+    <!--test banner ca-app-pub-3940256099942544/6300978111 -->
+</resources>
